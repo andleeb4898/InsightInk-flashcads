@@ -1,7 +1,7 @@
-'use client'
+"use client";
 import Image from "next/image";
 import Head from "next/head"; // Correct import for Head
-import getStripe from "@/utils/get-stripe";
+import getStripe from "../utils/get-stripe";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 // Importing Material-UI components
